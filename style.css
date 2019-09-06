@@ -1,0 +1,139 @@
+ html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  body {
+    font-family: 'Germania One';
+  font-style: normal;
+  font-weight: 400;
+  } 
+
+  .container {
+    margin: 0 auto;
+     max-width: 720px;  
+     padding: 0 10px; 
+  }
+
+  .header {
+    background: url(https://media.giphy.com/media/SQAOsF54fYcPC/giphy.gif) no-repeat center center; 
+    background-size: cover;
+    height: 700px;
+    text-align: center; 
+  }
+
+ 
+  .header .container {
+    position: relative;
+    top: 100px;
+    
+  }
+
+  .header h1 {
+    color: rgb(255, 255, 255);
+    line-height: 100px; 
+    font-size: 80px;
+    margin-top: 0;  
+    margin-bottom: 80px;
+    text-transform: uppercase; 
+  }
+
+
+  .header p {
+    color: rgb(255, 244, 244);
+    font-weight: 500;
+    letter-spacing: 8px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    text-transform: uppercase; 
+  }
+
+  .btn {
+    color: #fff;
+    background: rgb(103, 104, 192);
+    padding: 10px 40px;
+    text-decoration: none; 
+     
+  }
+
+  .nav { 
+    background: rgb(180, 26, 26);
+    height: 80px; 
+    width: 100%;
+  }
+
+  .nav ul {
+    color: wheat;
+    height: 80px;
+    list-style: none;
+    margin: 0 auto; 
+    padding: 0;
+  }
+
+  
+  .nav ul li {
+    color: #fff;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px; 
+    list-style: none;
+    padding: 0 10px;
+
+  }
+
+  .btn:hover, .nav ul li:hover {
+    background: #2512cf;
+     
+  }
+
+/*
+  .main .container {
+    margin: 80px auto;
+  }
+
+  .main img {
+    float: right;
+    margin: 50px 80px 50px 0;
+  }
+
+
+  .jumbotron {
+    background: url(http://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg) center center;
+    background-size: cover;
+    height: 600px; 
+  }
+
+  .jumbotron .container {
+    position: relative;
+    top: 220px;
+  }
+
+  .jumbotron h2 {
+    color: #fff;
+    text-align: right; 
+  }
+  
+  .jumbotron p {
+    color: #fff; 
+    text-align: right; 
+  }
+  
+  .jumbotron .btn {
+    margin: 10px 0 0;
+    float: right; 
+  }
+  
+  .footer { 
+    background: #000;
+    height: 80px; 
+    padding-bottom: 50px;
+  }
+  
+  .footer p { 
+    color: #fff;
+    font-size: 14px;  
+    height: 80px; 
+    line-height: 80px;
+    margin: 0;  
+  }
